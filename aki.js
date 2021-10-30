@@ -4,7 +4,7 @@ const ayarlar = require('./config.json');
 
 //İsim////İsim////İsim//
 const isimmus = "Aki Bot";
-const oynuyormus = "Aki Bot | 'Must#0503 | !aki"; 
+const oynuyormus = "Aki Bot | 'Must#2829 | " + ayarlar.prefix + "aki"; 
 //İsim////İsim////İsim//
 
 //durum////durum////durum//
