@@ -35,7 +35,7 @@ if (message.content.startsWith(prefix + "aki")) {
 if(!Started.has(message.author.id))Started.add(message.author.id);
 else return message.channel.send("**:x: | Oyun Başladı..**");
   
-      const aki = new Aki("tr"); // Full languages list at: https://github.com/jgoralcz/aki-api
+      const aki = new Aki("tr"); // İsterseniz buradan dili "en" yaparak ingilizce yapabilirsiniz.
       await aki.start();
   
 const msg = await message.channel.send(new MessageEmbed()
